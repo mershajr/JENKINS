@@ -15,4 +15,4 @@
     - name: starting the DB server
       service: 
         name: mariadb
-        state: started
+        state: stopped
